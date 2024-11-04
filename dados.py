@@ -48,7 +48,6 @@ query = "SELECT * FROM tabela_sidra"
 data_from_db = pd.read_sql_query(query, conn)
 print("Dados armazenados no banco de dados:\n", data_from_db)
 
-
 conn.close()
 
 print("Dados armazenados com sucesso no banco de dados 'dados_sidra.db'!")
